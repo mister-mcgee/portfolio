@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bytesized&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
 * {
   inset: 0;
   margin: 0;
@@ -93,4 +97,12 @@ body {
 
 .text-surface {
   color: var(--theme-surface);
+}
+
+.w-dvw {
+  width : 100dvw;
+}
+
+.h-dvh {
+  height: 100dvh;
 }
