@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bytesized&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+* {
+  inset: 0;
+  margin: 0;
+  padding: 0;
+
+  --theme-primary  : #F194B4;
+  --theme-secondary: #FFEBC6;
+  --theme-accent   : #FFB100;
+  --theme-surface  : #003844;
+
+  --theme-primary-content  : #003844;
+  --theme-secondary-content: #003844;
+  --theme-accent-content   : #003844;
+  --theme-surface-content  : #FFEBC6;
+
+  /* background: var(--theme-surface        ); */
+  color: var(--theme-surface-content);
+  font-size: 1.25rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background: var(--theme-surface);
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.pfp {
+  width: 200px;
+  border-radius: 100%;
+  border: solid;
+  border-width: 2px;
+  border-color: red;
+}
+
+.bg-primary {
+  background: var(--theme-primary);
+}
+
+.bg-secondary {
+  background: var(--theme-secondary);
+}
+
+.bg-accent {
+  background: var(--theme-accent);
+}
+
+.bg-surface {
+  background: var(--theme-surface);
+}
+
+.text-primary-content {
+  color: var(--theme-primary-content);
+}
+
+.text-secondary-content {
+  color: var(--theme-secondary-content);
+}
+
+.text-accent-content {
+  color: var(--theme-accent-content);
+}
+
+.text-surface-content {
+  color: var(--theme-surface-content);
+}
+
+.text-primary {
+  color: var(--theme-primary);
+}
+
+.text-secondary {
+  color: var(--theme-secondary);
+}
+
+.text-accent {
+  color: var(--theme-accent);
+}
+
+.text-surface {
+  color: var(--theme-surface);
+}
+
+.w-dvw {
+  width : 100dvw;
+}
+
+.h-dvh {
+  height: 100dvh;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav a {
+  color: var(--theme-secondary);
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: "Protest Riot";
+  font-weight: 100;
+  padding: .25rem;
+  border-radius: .5rem;
+  text-align: center;
+}
+
+.nav a:hover {
+  color: var(--theme-secondary-content);
+  background: var(--theme-secondary);
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  font-family: "Protest Riot", sans-serif;
+  color: var(--theme-primary);
+}
+
+.link {
+  padding: 4px;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
