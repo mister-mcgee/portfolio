@@ -137,13 +137,11 @@ h1 {
   color: var(--theme-primary);
 }
 
-.button {
+.link {
   padding: 4px;
-  border-radius: .25rem;
+  text-decoration: none;
 }
 
-.button:hover {
-  background: var(--theme-primary);
-  color     : var(--theme-primary-content);
-
+.link:hover {
+  text-decoration: underline;
 }
