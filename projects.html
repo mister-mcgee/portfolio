@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./index.css">
+    <title>Mister McGee</title>
+  </head>
+  <body>
+    <div class="flex-col justify-center align-center w-dvw h-dvh">
+      <!-- <img src="./pfp.png" class="pfp"> -->
+      <h1>Mister McGee's Projects</h1>
+
+      <div class="projects">
+        <a class="project" href="https://mister-mcgee.github.io/example">
+          <span class="project-title">Example</span>
+          <span class="project-description">This is an example project.</span>
+        </a>
+      </div>
+    </div>
+
+    <style>
+      .projects {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .project {
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        text-decoration: none;
+
+        background: var(--theme-primary);
+        color: var(--theme-primary-content);
+        border-radius: 1em;
+        padding: 1em;
+      }
+
+      .project:hover, .project:hover * {
+        background: var(--theme-secondary);
+        color: var(--theme-secondary-content);
+      }
+
+      .project-title {
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      .project-description {
+        font-size: 1em;
+        text-align: center;
+        font-style: italic;
+      }
+
+    </style>
+  </body>
+</html>
