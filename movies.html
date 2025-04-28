@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./index.css">
+    <title>Mister McGee's Favorite Movies</title>
+  </head>
+  <body>
+    <div class="flex-col justify-center align-center w-dvw h-dvh">
+      <h1>Mister McGee's Favorite Movies</h1>
+      <table>
+        <thead>
+          <tr>
+            <td>Rank   </td>
+            <td>Title  </td>
+            <td>Year   </td>
+            <td>IMDb   </td>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Inception -->
+          <tr>
+            <td>#1       </td>
+            <td>Inception</td>
+            <td>2010     </td>
+            <td><a href="https://www.imdb.com/title/tt1375666/" target="_blank">link</a></td>
+          </tr>
+          <!-- The Master of Disguise -->
+          <tr>
+            <td>#2                    </td>
+            <td>The Master of Disguise</td>
+            <td>2002                  </td>
+            <td><a href="https://www.imdb.com/title/tt0295427" target="_blank">link</a></td>
+          </tr>
+          <!-- Speed Racer -->
+          <tr>
+            <td>#3         </td>
+            <td>Speed Racer</td>
+            <td>2008       </td>
+            <td><a href="https://www.imdb.com/title/tt0811080" target="_blank">link</a></td>
+          </tr>
+          <!-- O'Dessa -->
+           <tr>
+            <td>#4     </td>
+            <td>O'Dessa</td>
+            <td>2025   </td>
+            <td><a href="https://www.imdb.com/title/tt26304178" target="_blank">link</a></td>
+          </tr>
+          <!-- Iron Man -->
+          <tr>
+            <td>#5      </td>
+            <td>Iron Man</td>
+            <td>2008    </td>
+            <td><a href="https://www.imdb.com/title/tt0371746" target="_blank">link</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <style>
+
+      table thead {
+        font-weight: bold;
+        text-align: center;
+      }
+
+      table tbody tr td:nth-child(1) {
+        background: var(--theme-primary);
+        color: var(--theme-primary-content);
+        text-align: center;
+        border-radius: 50%;
+        width : 32px;
+        height: 32px;
+        padding: 0.5rem;
+        display: inline-block;
+      }
+
+    </style>
+  </body>
+</html>
